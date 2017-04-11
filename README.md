@@ -16,6 +16,7 @@ python craigslist_cars.py --help
 Usage
 -----
 
+```
 craigslist_cars.py [-h] [-c CITY] [-b BRAND] [-m MODEL]
                    [-p MINIMUM_PRICE] [-y MINIMUM_YEAR]
                    [-d MAXIMUM_ODOMETER]
@@ -46,4 +47,4 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         write matching cars to file
   -v, --verbose         print debug output
-~~~
+```
