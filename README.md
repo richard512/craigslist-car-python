@@ -17,11 +17,11 @@ Usage
 -----
 
 ```
-craigslist_cars.py [-h] [-c CITY] [-b BRAND] [-m MODEL]
-                   [-p MINIMUM_PRICE] [-y MINIMUM_YEAR]
-                   [-d MAXIMUM_ODOMETER]
-                   [-t BLACKLIST_TITLES [BLACKLIST_TITLES ...]]
-                   [-w WEEK_RANGE] [-l MAX_RESULTS] [-o OUTPUT] [-v]
+python craigslist_cars.py [-h] [-c CITY] [-b BRAND] [-m MODEL]
+                          [-p MINIMUM_PRICE] [-y MINIMUM_YEAR]
+                          [-d MAXIMUM_ODOMETER]
+                          [-t BLACKLIST_TITLES [BLACKLIST_TITLES ...]]
+                          [-w WEEK_RANGE] [-l MAX_RESULTS] [-o OUTPUT] [-v]
 
 craigslist car finder
 
