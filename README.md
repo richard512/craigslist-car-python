@@ -7,22 +7,20 @@ Setup
 -----
 
 ```
+git clone https://github.com/richard512/craigslist-car-python.git
+cd craigslist-car-python.git
 pip install python-dateutil
+python craigslist_cars.py --help
 ```
 
 Usage
 -----
 
-Clone the repo and check out the options available! Not all the filters are available yet.
-
-~~~ sh
-$ git clone https://github.com/avidas/craigslist-car-python.git
-$ python craigslist_cars.py --help
-usage: craigslist_cars.py [-h] [-c CITY] [-b BRAND] [-m MODEL]
-                          [-p MINIMUM_PRICE] [-y MINIMUM_YEAR]
-                          [-d MAXIMUM_ODOMETER]
-                          [-t BLACKLIST_TITLES [BLACKLIST_TITLES ...]]
-                          [-w WEEK_RANGE] [-l MAX_RESULTS] [-o OUTPUT] [-v]
+craigslist_cars.py [-h] [-c CITY] [-b BRAND] [-m MODEL]
+                   [-p MINIMUM_PRICE] [-y MINIMUM_YEAR]
+                   [-d MAXIMUM_ODOMETER]
+                   [-t BLACKLIST_TITLES [BLACKLIST_TITLES ...]]
+                   [-w WEEK_RANGE] [-l MAX_RESULTS] [-o OUTPUT] [-v]
 
 craigslist car finder
 
