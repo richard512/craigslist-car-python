@@ -9,7 +9,7 @@ Setup
 ```
 git clone https://github.com/richard512/craigslist-car-python.git
 cd craigslist-car-python.git
-pip install python-dateutil
+pip install -r requirements.txt
 python craigslist_cars.py --help
 ```
 
